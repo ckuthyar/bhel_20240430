@@ -1,0 +1,5 @@
+f1=open("banks.txt","r")
+info1=f1.readline().replace("\n","")
+list1=info1.split(",")
+print(info1)
+print(list1)
